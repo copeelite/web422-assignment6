@@ -45,7 +45,7 @@ function AboutPage() {
             Founded by Fanghao Meng, our CEO and founder, in 2021, our journey began with a simple goal: to provide a convenient and enjoyable shopping experience for people around the world. Over the years, we have grown into a global marketplace, connecting buyers and sellers, and offering a vast selection of products.
           </p>
           <p>
-            Whether you're looking for the latest electronics and gadgets, fashionable apparel, home decor, or captivating books and entertainment, we've got it all. Our commitment to customer satisfaction drives everything we do.
+            Whether you&apos;re looking for the latest electronics and gadgets, fashionable apparel, home decor, or captivating books and entertainment, we&apos;ve got it all. Our commitment to customer satisfaction drives everything we do.
           </p>
           <p>
             Join us at ShopWide and experience the future of online shopping. We are dedicated to making your shopping journey seamless and enjoyable.

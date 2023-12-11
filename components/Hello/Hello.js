@@ -36,7 +36,7 @@ function Hello() {
           <h2>Mission Statement</h2>
           <p>
             At ShopWide, our mission is to connect people with the products they love, offering a vast selection,
-            convenience, and exceptional customer service. We're dedicated to making online shopping an enjoyable
+            convenience, and exceptional customer service. We&apos;re dedicated to making online shopping an enjoyable
             and seamless experience for customers worldwide.
           </p>
         </section>
@@ -46,7 +46,7 @@ function Hello() {
           <h2>ShopWide created by Fanghao</h2>
           <p>
             ShopWide is a leading online retailer, founded in 2021 with a vision to revolutionize the way people shop.
-            Over the years, we've grown into a global marketplace that offers a wide range of products, from electronics
+            Over the years, we&apos;ve grown into a global marketplace that offers a wide range of products, from electronics
             and fashion to home decor and more.
           </p>
           <p>
