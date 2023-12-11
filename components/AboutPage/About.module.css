@@ -1,0 +1,117 @@
+/* about-styles.css */
+
+/* Container styles */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #36393f; /* Discord-like background color */
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  /* Company name */
+  .company-name {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* About content */
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin-bottom: 40px;
+  }
+  
+  /* About image */
+  .about-image {
+    flex: 1;
+    max-width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* About text */
+  .about-text {
+    flex: 2;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Product section */
+  .product-section {
+    text-align: center;
+  }
+  
+  /* Product title */
+  .product-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Products container */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Individual product */
+  .product {
+    background-color: #202225; /* Discord-like product background color */
+    border-radius: 8px;
+    padding: 15px;
+    text-align: left;
+    max-width: 300px;
+    transition: transform 0.2s;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Product info */
+  .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-info h3 {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .product-info h5 {
+    font-size: 18px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .about-text {
+      max-width: none;
+    }
+  }
+  
+  /* Add any other responsive styles as needed */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #36393f; /* Discord-like background color */
+    color: #ffffff; /* Text color */
+  }

@@ -1,0 +1,63 @@
+/* ShoppingCart.module.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .header {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .cartList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cartItem {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cartItemDetails {
+    display: flex;
+    align-items: center;
+  }
+  
+  .itemImage {
+    width: 50px;
+    margin-right: 15px;
+  }
+  
+  .itemTitle {
+    font-weight: bold;
+  }
+  
+  .itemPrice {
+    font-style: italic;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .totalPrice {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

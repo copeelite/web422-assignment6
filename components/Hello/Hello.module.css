@@ -1,0 +1,96 @@
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #36393f; /* Discord-like background color */
+    color: #ffffff; /* Text color */
+  }
+  
+  /* Company Name styles */
+  .company-name {
+    font-size: 28px;
+    color: #7289da; /* Discord's primary color */
+    margin-bottom: 20px;
+  }
+  
+  /* Navigation links styles */
+  .nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /* Divider line styles */
+  .divider {
+    border: 1px solid #7289da; /* Discord's primary color */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  /* Section content styles */
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  /* Product styles */
+  .product {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .product-image {
+    flex: 0 0 30%; /* Set the image width */
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-description {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+ 
+.gallery-container {
+  width: 100%;
+  max-width: 800px; /* Adjust the width of the gallery container as needed */
+  overflow: auto; /* Enable scrolling for the gallery */
+  margin: 0 auto; /* Center the gallery */
+}
+
+.gallery {
+  display: flex; /* Use Flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  gap: 10px; /* Adjust the gap between images */
+  justify-content: flex-start; /* Start images from the beginning of the row */
+}
+
+.product {
+  flex-basis: calc(20% - 10px); /* Set 20% width for each item, 5 items per row */
+  max-width: calc(20% - 10px); /* Set maximum width for each item */
+  position: relative;
+  overflow: hidden;
+  max-height: 300px; /* Adjust the maximum height to make images larger */
+}
+
+.product img {
+  width: 100%; /* Make images fill their containers */
+  height: 100%; /* Make images expand to their container's height */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+
+
+
+  
+  
+  
+  
+  
+  

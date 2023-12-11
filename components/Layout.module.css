@@ -1,0 +1,39 @@
+/* layout.module.css */
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #36393f; /* Discord-like background color */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px; /* Add padding for spacing */
+  }
+  
+  /* Navigation links styles */
+  .navLink {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-right: 20px; /* Add margin for spacing between links */
+    transition: color 0.2s ease-in-out; /* Add a smooth color transition on hover */
+  }
+  
+  /* Style for the active link */
+  .navLink.active {
+    cursor: pointer;
+    font-weight: bold; /* Make the active link bold */
+    color: #7289da; /* Discord's primary color */
+  }
+  
+  /* Horizontal line styles */
+  .hrLine {
+    border: none;
+    border-top: 1px solid #7289da; /* Discord's primary color */
+  }
+  
+  /* Container styles */
+  
+  
+  /* ... (Rest of your styles) */
+  
