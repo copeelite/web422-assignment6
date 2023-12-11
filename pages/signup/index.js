@@ -1,6 +1,6 @@
 // pages/signup.js
 import { useForm } from 'react-hook-form';
-import styles from '../../styles/SignUp.module.css';
+import styles from '@/styles/signUp.module.css';
 
 const SignUp = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
